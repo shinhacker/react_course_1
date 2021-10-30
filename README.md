@@ -9,7 +9,7 @@
     App.js : Before return can + anything js
         Using variables in App :--> Use 
           {<variableName>}
-          
+
     > Not supported for boolean & object       
     Creating variables in React App :
     ```js
@@ -30,3 +30,7 @@
       }
 
     ```
+
+
+    2. React Components
+    ![alt](https://i.imgur.com/NBffezV.png)
