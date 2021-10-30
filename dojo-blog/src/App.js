@@ -1,4 +1,6 @@
 import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
 
 function App() {
 
@@ -9,11 +11,11 @@ function App() {
   const link = "https://google.com";
   return (
     <div className="App">
+        <Navbar/>
         <div className="content">
-          <h1>{ Math.random()*10}</h1>
+          <Home/>
         </div>
 
-      <a href={link}>Google Site</a>
     </div>
   );
 }
