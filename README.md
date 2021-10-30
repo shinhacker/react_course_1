@@ -34,3 +34,22 @@
 
     2. React Components
     ![alt](https://i.imgur.com/NBffezV.png)
+
+    3. Handle Click : here lamda function handleClick is injected in onCLick event + dynamic template {} injection done.
+
+     a. Function with variables (var1) :
+        **Wrap** whole parameter in arrow function so that its not trigger automatically. 
+    ```js
+      const handleClick = ()=>{
+              console.log("hello ninjas");
+          }
+          return(
+              <div className="Home">
+                  <h2>Home Page</h2>
+                  <button onClick={handleClick}>Click Me </button>
+                   <button onClick={()=>{handleClickAgain('mario')
+            }}>Click me again</button>
+              </div>
+
+          );
+    ```
